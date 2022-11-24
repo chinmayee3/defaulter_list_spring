@@ -6,7 +6,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 @Entity
-@Table(name = "student")//table name is 
+@Table(name = "attendance")//table name is 
 public class Student {
 	@Id
 	private int Roll_no;
